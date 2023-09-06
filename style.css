@@ -1,0 +1,133 @@
+html{
+  box-sizing: border-box;
+  font-family: 'Karla';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+h2, h4, p{
+  margin: 0;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+  color: hsl(204, 43%, 93%);
+  font-size: 0.9rem;
+  opacity: 0.8;
+  line-height: 20px;
+}
+
+body{
+  padding: 20px;
+}
+
+#card{
+  width: 630px;
+  height: 470px;
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#top-section{
+  width: 100%;
+  height: 45%;
+  padding: 40px;
+}
+
+#top-section h2{
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 20px;
+}
+
+#top-section h4{
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+#top-section p{
+  color: hsl(218, 22%, 67%);
+  line-height: 25px;
+}
+
+
+#bottom-section{
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+
+#bottom-section h4{
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+#bottom-left-section{
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  width: 50%;
+  padding: 40px;
+  background-color:hsl(179, 62%, 43%);
+}
+
+#price-container{
+  margin-bottom: 10px;
+}
+
+#price{
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 7px;
+}
+
+#price-frequency{
+  display: inline-block;
+  position: relative;
+  top: -6px;
+  color: white;
+  opacity: 0.55;
+}
+
+#bottom-left-section p{
+  font-size: 0.95rem;
+  color: hsl(204, 43%, 93%);
+  margin-bottom: 30px
+}
+
+button{
+  color: white;
+  font-size: 1.02rem;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.15);
+}
+
+button:hover{
+  cursor: pointer;
+  background-color:  hsl(75, 70%, 50%);
+  transform: scale(1.01);
+}
+
+#bottom-right-section{
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  width: 50%;
+  padding: 40px;
+  background-color:hsl(179, 73%, 43%);
+}
+
+#bottom-right-section h4{
+  margin-bottom: 20px;
+}
